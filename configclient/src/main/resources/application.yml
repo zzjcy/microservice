@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: mallWeb
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:8015/
+server:
+  port: 8017
