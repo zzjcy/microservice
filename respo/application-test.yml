@@ -1,5 +1,1 @@
-spring:
-  application:
-    name: SERVICE-HELLO-TEST
-
-from: git-test-1.0
+foo: git-test-1.0

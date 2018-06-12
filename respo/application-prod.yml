@@ -1,5 +1,1 @@
-spring:
-  application:
-    name: SERVICE-HELLO-PROD
-
-from: git-prod-1.0
+foo: git-prod-1.0
