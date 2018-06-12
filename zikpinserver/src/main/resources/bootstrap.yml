@@ -1,0 +1,5 @@
+spring:
+  application:
+ 8100   name: SLUETH-SERVER
+server:
+  port:

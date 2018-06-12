@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: CONSUMER-HELLO
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8082/eureka/
+
+server:
+  port: 8084

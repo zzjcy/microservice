@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: MALL_WEB
+
+server:
+  port: 8086

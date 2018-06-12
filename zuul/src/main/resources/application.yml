@@ -1,0 +1,14 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: ZUUL-PROXY
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8082/eureka/
+zuul:
+  routes:
+    user-service: /user/**
+    product-service: /product/**
